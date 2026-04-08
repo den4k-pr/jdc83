@@ -68,6 +68,7 @@
 
 .q-line{
     margin-bottom: 16px;
+    
 }
 
 .asksContainer {
@@ -218,6 +219,11 @@
         width: 2vw;
     }
 
+    .q-line {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
     .asksContainer-item-top .q{
         font-size: 1.3vw;
         min-width: 2.4vw;
@@ -231,6 +237,8 @@
 
     .asksContainer-item-bottom p{
         padding-bottom: 2vw;
+        font-size: 1.2vw;
+        line-height: 1.4vw;
     }
 
     .asksContainer-item-top{
